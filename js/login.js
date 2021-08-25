@@ -1,5 +1,5 @@
-const user = document.getElementById("user")
-const pass = document.getElementById("pass")
+const user = document.getElementById("user").value
+const pass = document.getElementById("pass").value
 
 function validarDatos(){
     if(user==="prueba" && pass==="123456"){
