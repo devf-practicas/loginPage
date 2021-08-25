@@ -2,7 +2,7 @@ const user = document.getElementById("user").value
 const pass = document.getElementById("pass").value
 
 function validarDatos(){
-    if(user==="prueba" && pass==="123456"){
+    if(user=="prueba" && pass=="123456"){
         alert("ya ingreso con datos ficticios")
     }
     else{
